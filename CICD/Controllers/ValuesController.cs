@@ -18,7 +18,7 @@ namespace CICD.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return 1;
+            return "1";
         }
 
         // POST api/values
