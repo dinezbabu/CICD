@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d2a7f8a8-2a11-4998-a5a5-6545a048a4e1" name="SYSTEM@VDI01T8AHSC157 2017-02-23 20:18:55" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="2ca02576-8692-4afa-8ea0-6e36fd85e329">
+    <Deployment userDeploymentRoot="D:\Jenkins\Installation\jobs\CICD\workspace" useDefaultDeploymentRoot="false" runDeploymentRoot="SYSTEM_VDI01T8AHSC157 2017-02-23 20_18_55" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-23T20:18:55.4942161+05:30" queuing="2017-02-23T20:18:55.9392736+05:30" start="2017-02-23T20:18:56.0012356+05:30" finish="2017-02-23T20:18:56.6347651+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Get" storage="d:\jenkins\installation\jobs\cicd\workspace\cicd.tests\bin\release\cicd.tests.dll" id="5f94d884-2fe0-9f13-2f24-bf50e86986be">
+      <Execution id="f01197e0-dc69-478d-bea7-7c2af591a7e3" />
+      <TestMethod codeBase="D:/Jenkins/Installation/jobs/CICD/workspace/CICD.Tests/bin/Release/CICD.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CICD.Tests.Controllers.ValuesControllerTest, CICD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Get" />
+    </UnitTest>
+    <UnitTest name="Delete" storage="d:\jenkins\installation\jobs\cicd\workspace\cicd.tests\bin\release\cicd.tests.dll" id="bc301ab0-2fb4-9440-9bef-fef2194400e0">
+      <Execution id="95f1740b-0ed5-4543-a4c8-0cf21454d960" />
+      <TestMethod codeBase="D:/Jenkins/Installation/jobs/CICD/workspace/CICD.Tests/bin/Release/CICD.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CICD.Tests.Controllers.ValuesControllerTest, CICD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Delete" />
+    </UnitTest>
+    <UnitTest name="Put" storage="d:\jenkins\installation\jobs\cicd\workspace\cicd.tests\bin\release\cicd.tests.dll" id="fd1e655c-8157-8e49-5750-0d9643f7edd8">
+      <Execution id="909a7045-bcc3-4c63-b96e-cd1383e0372a" />
+      <TestMethod codeBase="D:/Jenkins/Installation/jobs/CICD/workspace/CICD.Tests/bin/Release/CICD.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CICD.Tests.Controllers.ValuesControllerTest, CICD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Put" />
+    </UnitTest>
+    <UnitTest name="GetById" storage="d:\jenkins\installation\jobs\cicd\workspace\cicd.tests\bin\release\cicd.tests.dll" id="d69357a3-633b-6d5c-56f0-aead854210ec">
+      <Execution id="80ba99e6-8b49-4553-942c-950b148b6626" />
+      <TestMethod codeBase="D:/Jenkins/Installation/jobs/CICD/workspace/CICD.Tests/bin/Release/CICD.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CICD.Tests.Controllers.ValuesControllerTest, CICD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetById" />
+    </UnitTest>
+    <UnitTest name="Post" storage="d:\jenkins\installation\jobs\cicd\workspace\cicd.tests\bin\release\cicd.tests.dll" id="f0237963-2385-318d-4194-a38f073bab4d">
+      <Execution id="11261235-0eb1-428c-a3ec-62495c6a33be" />
+      <TestMethod codeBase="D:/Jenkins/Installation/jobs/CICD/workspace/CICD.Tests/bin/Release/CICD.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CICD.Tests.Controllers.ValuesControllerTest, CICD.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Post" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bc301ab0-2fb4-9440-9bef-fef2194400e0" executionId="95f1740b-0ed5-4543-a4c8-0cf21454d960" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f94d884-2fe0-9f13-2f24-bf50e86986be" executionId="f01197e0-dc69-478d-bea7-7c2af591a7e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d69357a3-633b-6d5c-56f0-aead854210ec" executionId="80ba99e6-8b49-4553-942c-950b148b6626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0237963-2385-318d-4194-a38f073bab4d" executionId="11261235-0eb1-428c-a3ec-62495c6a33be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd1e655c-8157-8e49-5750-0d9643f7edd8" executionId="909a7045-bcc3-4c63-b96e-cd1383e0372a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="95f1740b-0ed5-4543-a4c8-0cf21454d960" testId="bc301ab0-2fb4-9440-9bef-fef2194400e0" testName="Delete" computerName="VDI01T8AHSC157" duration="00:00:00.0272338" startTime="2017-02-23T20:18:56.0091796+05:30" endTime="2017-02-23T20:18:56.5720081+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95f1740b-0ed5-4543-a4c8-0cf21454d960">
+    </UnitTestResult>
+    <UnitTestResult executionId="f01197e0-dc69-478d-bea7-7c2af591a7e3" testId="5f94d884-2fe0-9f13-2f24-bf50e86986be" testName="Get" computerName="VDI01T8AHSC157" duration="00:00:00.0020270" startTime="2017-02-23T20:18:56.5769731+05:30" endTime="2017-02-23T20:18:56.5849171+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f01197e0-dc69-478d-bea7-7c2af591a7e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="80ba99e6-8b49-4553-942c-950b148b6626" testId="d69357a3-633b-6d5c-56f0-aead854210ec" testName="GetById" computerName="VDI01T8AHSC157" duration="00:00:00.0003717" startTime="2017-02-23T20:18:56.5869031+05:30" endTime="2017-02-23T20:18:56.5918681+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80ba99e6-8b49-4553-942c-950b148b6626">
+    </UnitTestResult>
+    <UnitTestResult executionId="11261235-0eb1-428c-a3ec-62495c6a33be" testId="f0237963-2385-318d-4194-a38f073bab4d" testName="Post" computerName="VDI01T8AHSC157" duration="00:00:00.0002188" startTime="2017-02-23T20:18:56.5938541+05:30" endTime="2017-02-23T20:18:56.5978261+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11261235-0eb1-428c-a3ec-62495c6a33be">
+    </UnitTestResult>
+    <UnitTestResult executionId="909a7045-bcc3-4c63-b96e-cd1383e0372a" testId="fd1e655c-8157-8e49-5750-0d9643f7edd8" testName="Put" computerName="VDI01T8AHSC157" duration="00:00:00.0001857" startTime="2017-02-23T20:18:56.5988191+05:30" endTime="2017-02-23T20:18:56.6037841+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="909a7045-bcc3-4c63-b96e-cd1383e0372a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
